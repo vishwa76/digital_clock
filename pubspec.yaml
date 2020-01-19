@@ -1,0 +1,44 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+    # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/location.png
+    - assets/images/temperature.png
+    - assets/images/cloudy.png
+    - assets/images/foggy.png
+    - assets/images/rainy.png
+    - assets/images/snowy.png
+    - assets/images/sunny.png
+    - assets/images/thunderstorm.png
+    - assets/images/windy.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          style: normal
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          #style: 'medium'
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          #style: 'bold'
+        - asset: assets/fonts/Montserrat-Light.ttf
+          #style: 'light'
